@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#65BFE49A">
+    <TextView
+        android:id="@+id/personalInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Information"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="First Name "
+        android:textAlignment="center"
+        android:textSize="13dp"
+        android:textStyle="normal"
+        tools:ignore="TextSizeCheck"></EditText>
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Last Name "
+        android:textAlignment="center"
+        android:textSize="13dp"
+        android:textStyle="normal"
+        tools:ignore="TextSizeCheck"></EditText>
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Age"
+        android:textAlignment="center"
+        android:textSize="13dp"
+        android:textStyle="normal"
+        tools:ignore="TextSizeCheck"></EditText>
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Gender"
+        android:textAlignment="center"
+        android:textSize="13dp"
+        android:textStyle="normal"
+        tools:ignore="TextSizeCheck"></EditText>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Email ID"
+        android:textAlignment="center"
+        android:textSize="13dp"
+        android:textStyle="normal"
+        tools:ignore="TextSizeCheck"></EditText>
+
+    <EditText
+        android:id="@+id/mobileNo"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Mobile No"
+        android:textAlignment="center"
+        android:textSize="13dp"
+        android:textStyle="normal"
+        tools:ignore="TextSizeCheck"></EditText>
+
+    <EditText
+        android:id="@+id/instagramID"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Instagram ID"
+        android:textAlignment="center"
+        android:textSize="13dp"
+        android:textStyle="normal"
+        tools:ignore="TextSizeCheck"></EditText>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="submit"
+        android:textStyle="normal"
+        android:textColor="#F8F5F5">
+    </Button>
+</LinearLayout>

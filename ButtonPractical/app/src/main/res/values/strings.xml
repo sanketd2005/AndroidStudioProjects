@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ButtonPractical</string>
+    <string name="turn_on_off_bluetooth">Turn on/off bluetooth :</string>
+</resources>
